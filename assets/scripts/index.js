@@ -68,14 +68,14 @@ var geoObjects = points.map(function (coords) {
       properties: {
         hintContent: '',
         hintData: {
-            image: '/assets/images/512_biznes_mebel.jpg',
+            image: 'https://andreykanay.github.io/mebel911/assets/images/512_biznes_mebel.jpg',
             description: 'Описание вашей точки',
             address: 'Загрузка адреса...'
         }
     }
     }, {
       iconLayout: 'default#image',
-      iconImageHref: '/assets/images/placemark.svg', // ссылка на изображение иконки
+      iconImageHref: 'https://andreykanay.github.io/mebel911/assets/images/placemark.svg', // ссылка на изображение иконки
       iconImageSize: [36, 36], // размер иконки
       iconImageOffset: [-18, -18],
       hintContentLayout: ymaps.templateLayoutFactory.createClass(`
@@ -92,7 +92,7 @@ var geoObjects = points.map(function (coords) {
       if (firstGeoObject) {
           var address = firstGeoObject.getAddressLine(); // Адрес в строковом формате
           geoObject.properties.set('hintData', {
-              image: '/assets/images/512_biznes_mebel.jpg',
+              image: 'https://andreykanay.github.io/mebel911/assets/images/512_biznes_mebel.jpg',
               description: 'Описание вашей точки', // Ваше описание
               address: address // Устанавливаем адрес
           });
@@ -101,7 +101,7 @@ var geoObjects = points.map(function (coords) {
 
     geoObject.events.add('click', function (e) {
       var target = e.get('target'); // Текущий объект
-      window.location.href = "/portfolio-item.html"
+      window.location.href = "https://andreykanay.github.io/mebel911/portfolio-item.html"
   });
 
   return geoObject;
@@ -111,7 +111,7 @@ var geoObjects = points.map(function (coords) {
 var clusterer = new ymaps.Clusterer({
     // Настройки для кластера
     clusterIcons: [{
-        href: '/assets/images/placemark.svg', // Иконка кластера
+        href: 'https://andreykanay.github.io/mebel911/assets/images/placemark.svg', // Иконка кластера
         size: [36, 36], // Размер иконки
         offset: [-18, -18] // Смещение
     }],
