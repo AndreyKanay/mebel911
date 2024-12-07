@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-Roman.eot');
+    src: local('HelveticaNeueCyr-Roman'),
+        url('../fonts/HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueCyr-Roman.svg#HelveticaNeueCyr-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-Black.eot');
+    src: local('HelveticaNeueCyr-Black'),
+        url('../fonts/HelveticaNeueCyr-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueCyr-Black.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Black.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Black.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueCyr-Black.svg#HelveticaNeueCyr-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-Thin.eot');
+    src: local('HelveticaNeueCyr-Thin'),
+        url('../fonts/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueCyr-Thin.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Thin.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueCyr-Thin.svg#HelveticaNeueCyr-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-UltraLightItalic.eot');
+    src: local('HelveticaNeueCyr-UltraLightItalic'),
+        url('../fonts/HelveticaNeueCyr-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueCyr-UltraLightItalic.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-UltraLightItalic.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-UltraLightItalic.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueCyr-UltraLightItalic.svg#HelveticaNeueCyr-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('../fonts/HelveticaNeueCyr-UltraLight.eot');
+    src: local('HelveticaNeueCyr-UltraLight'),
+        url('../fonts/HelveticaNeueCyr-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaNeueCyr-UltraLight.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-UltraLight.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-UltraLight.ttf') format('truetype'),
+        url('../fonts/HelveticaNeueCyr-UltraLight.svg#HelveticaNeueCyr-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers Condensed';
+    src: url('../fonts/UniversCondensed-Bold.eot');
+    src: local('Univers Condensed Bold'), local('UniversCondensed-Bold'),
+        url('../fonts/UniversCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniversCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/UniversCondensed-Bold.woff') format('woff'),
+        url('../fonts/UniversCondensed-Bold.ttf') format('truetype'),
+        url('../fonts/UniversCondensed-Bold.svg#UniversCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers Condensed';
+    src: url('../fonts/UniversCondensed-Medium.eot');
+    src: local('Univers Condensed Medium'), local('UniversCondensed-Medium'),
+        url('../fonts/UniversCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniversCondensed-Medium.woff2') format('woff2'),
+        url('../fonts/UniversCondensed-Medium.woff') format('woff'),
+        url('../fonts/UniversCondensed-Medium.ttf') format('truetype'),
+        url('../fonts/UniversCondensed-Medium.svg#UniversCondensed-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers Condensed';
+    src: url('../fonts/UniversCondensed-MediumItalic.eot');
+    src: local('Univers Condensed Medium Italic'), local('UniversCondensed-MediumItalic'),
+        url('../fonts/UniversCondensed-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/UniversCondensed-MediumItalic.woff2') format('woff2'),
+        url('../fonts/UniversCondensed-MediumItalic.woff') format('woff'),
+        url('../fonts/UniversCondensed-MediumItalic.ttf') format('truetype'),
+        url('../fonts/UniversCondensed-MediumItalic.svg#UniversCondensed-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
