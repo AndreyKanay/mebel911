@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
@@ -82,14 +87,175 @@
       <div class="breadcrumbs">
         <a href="./" class="breadcrumbs__link">Главная</a>
         <div class="breadcrumbs__sep">/</div>
-        <p class="breadcrumbs__current">Категория портфолио</p>
-        
+        <p class="breadcrumbs__current">Кухни</p>
       </div>
     </div>
-    <section class="section">
-      <div class="container section__inner">
-        <h1 class="text-uppercase section__title text-big">Категория портфолио</h1>
+    <header class="category-header">
+      <div class="container category-header__inner">
+        <h1 class="text-uppercase category-header__title">Кухни</h1>
+        <div class="search">
+            <input type="text" class="search__input" placeholder="Поиск...">
+            <button class="search__button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                    <path d="M13.387 19.095C8.96875 19.095 5.38702 15.5132 5.38702 11.095C5.38702 6.67669 8.96875 3.09497 13.387 3.09497C17.8053 3.09497 21.387 6.67669 21.387 11.095C21.387 15.5132 17.8053 19.095 13.387 19.095Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.387 21.095L7.737 16.745" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
       </div>
+    </header>
+    <section class="map-area">
+        <div class="map-area__inner">
+            <div id="map" class="map-area__map"></div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container section__inner">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__col grid__col--12">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 3/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid__row">
+                    <div class="grid__col grid__col--6">
+                        <div class="grid">
+                            <div class="grid__row">
+                                <div class="grid__col grid__col--12">
+                                    <a href="/portfolio-item.html" class="portfolio-category">
+                                        <img class="portfolio-category__image" style="aspect-ratio: 2/1;" src="/assets/images/Layer 44.png" alt="">
+                                        <span class="portfolio-category__description">
+                                            <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="grid__col grid__col--12">
+                                    <a href="/portfolio-item.html" class="portfolio-category">
+                                        <img class="portfolio-category__image" style="aspect-ratio: 2/1;" src="/assets/images/Layer 44.png" alt="">
+                                        <span class="portfolio-category__description">
+                                            <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__col grid__col--6">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1.031;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid__row">
+                    <div class="grid__col grid__col--4">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid__col grid__col--4">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid__col grid__col--4">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid__row">
+                    <div class="grid__col grid__col--3">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid__col grid__col--3">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid__col grid__col--3">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid__col grid__col--3">
+                        <a href="/portfolio-item.html" class="portfolio-category">
+                            <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="grid__row">
+                    <div class="grid__col grid__col--6">
+                        <a href="/portfolio-item.html" class="portfolio-category" style="aspect-ratio: 1/1.018;" >
+                            <img class="portfolio-category__image" src="/assets/images/Layer 44.png" alt="">
+                            <span class="portfolio-category__description">
+                                <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="grid__col grid__col--6">
+                        <div class="grid">
+                            <div class="grid__row">
+                                <div class="grid__col grid__col--6">
+                                    <a href="/portfolio-item.html" class="portfolio-category">
+                                        <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                                        <span class="portfolio-category__description">
+                                            <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="grid__col grid__col--6">
+                                    <a href="/portfolio-item.html" class="portfolio-category">
+                                        <img class="portfolio-category__image" style="aspect-ratio: 1/1;" src="/assets/images/Layer 44.png" alt="">
+                                        <span class="portfolio-category__description">
+                                            <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="grid__col grid__col--12">
+                                    <a href="/portfolio-item.html" class="portfolio-category">
+                                        <img class="portfolio-category__image" style="aspect-ratio: 2/1;" src="/assets/images/Layer 44.png" alt="">
+                                        <span class="portfolio-category__description">
+                                            <span class="portfolio-category__title">Кухня на тульской в серых тонах</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
   </div>
   
@@ -136,8 +302,14 @@
   </footer>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js" integrity="sha512-hRhHH3+D9xVKPpodEiYzHWIG8CWbCjp7LCdZ00K3/6xsdC3iT0OlPJLIwxSMEl07gya1Ae8iAqXjMMLpzqqh0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    Fancybox.bind("[data-fancybox]", {
+    });
+</script>
+
+
 <script src="https://api-maps.yandex.ru/2.1/?apikey=433e38b1-b19e-477b-8d5f-f50135a3eae0&lang=ru_RU"></script>
 <script src="./assets/scripts/index.js"></script>
-
 </body>
 </html>
